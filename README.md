@@ -30,13 +30,13 @@ pip3 install -r requirements.txt
 
 ```sh
 ~$ cat >> ~/.bashrc
-export PYTHONPATH=$PYTHONPATH:/home/username/
+export PYTHONPATH=$PYTHONPATH:/home/u1022/
 Ctrl+d
 
 ~$ source ~/.bashrc
 ```
 
-* Install MongoDB >= 버전
+* Install MongoDB >= 5.0.7
 
 ---
 
