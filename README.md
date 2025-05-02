@@ -26,7 +26,17 @@ git clone ...........
 cd da_design_server_
 pip3 install -r requirements.txt
 ```
-![image](https://github.com/user-attachments/assets/a005d161-d123-4438-9450-5aa9e92b6182)
+* Append a python path to `~/.bashrc` file.
+
+```sh
+~$ cat >> ~/.bashrc
+export PYTHONPATH=$PYTHONPATH:/home/username/
+Ctrl+d
+
+~$ source ~/.bashrc
+```
+
+* Install MongoDB >= 버전
 
 ---
 
